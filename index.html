@@ -44,9 +44,11 @@
 
     .header {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
         margin-bottom: 40px;
+        position: relative;
+        z-index: 1;
     }
 
     .title {
@@ -56,8 +58,10 @@
     }
 
     .invoice-info {
-        text-align: right;
+        color: #000000;
+        text-align: left;
         font-size: 14px;
+        margin-top: 12px;
     }
 
     .section {
